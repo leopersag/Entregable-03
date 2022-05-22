@@ -93,17 +93,17 @@ main{
     margin: 0px 5vw;
 }
 
-.Bio_main{
+.bio_main{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.Bio_parrafo{
+.bio_parrafo{
     margin: $pxsize*2 5vw;
 }
 
-.Bio_intro{
+.bio_intro{
     margin: $pxsize*2 0px;
     display: flex;
     flex-flow: column;
@@ -111,25 +111,25 @@ main{
     align-items: center;
 }
 
-.Bio_videos {
+.bio_videos {
     @include display_format1;
 }
 
-.Bio_video{
+.bio_video{
     @include display_format1;
     color: $color3;
     text-shadow: 2px 2px 5px $color3;
     margin: $pxsize*5 0px;
 }
 
-.Bio_video_title{
+.bio_video_title{
     font-weight: 500;
     text-align: center;
 }
 
 /* ---Estilo del Main Fotos--- */
 
-.Fotos{
+.fotos{
     display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly;
@@ -199,8 +199,8 @@ main{
 }
 
 $ejemplomaps: (
-    Item: 40px,
-    Time: 70px,
+    item: 40px,
+    time: 70px,
 );
 
 @each $ejemplo, $width in $ejemplomaps {
@@ -234,7 +234,7 @@ $ejemplomaps: (
     margin: $pxsize*2 0px;
 }
 
-.contacto_forms .Contacto_formulario{
+.contacto_forms .contacto_formulario{
     @include display_format2;
 }
 
@@ -252,11 +252,11 @@ $ejemplomaps: (
     width: auto;
 }
 
-.Contacto_formulario_namebox{
+.contacto_formulario_namebox{
     margin-top: $pxsize*2;
 }
 
-.Contacto_formulario_box{
+.contacto_formulario_box{
     background-color: $color4;
     color: $color3;
     width: 80vw;

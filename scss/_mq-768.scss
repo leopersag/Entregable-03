@@ -57,33 +57,33 @@
         margin: $pxsize*2 0px $pxsize*4 0px;
     }
 
-    .Bio_parrafo{
+    .bio_parrafo{
         width: 50vw;
         margin: $pxsize*2 $pxsize*6 $pxsize*4 $pxsize*6;
     }
 
-    .Bio_intro{
+    .bio_intro{
         width: 90vw;
         flex-flow: row wrap;
         justify-content:space-evenly;
     }
     
-    .Bio_videos{
+    .bio_videos{
         flex-flow: row wrap;
     }
 
-    .Bio_video{
+    .bio_video{
         margin: $pxsize*5;
     }
 
-    .Bio_video_vid{
+    .bio_video_vid{
         width: 560px;
         height: 315px;
     }
 
     /* ---Estilo del Main Fotos--- */
 
-    .Fotos{
+    .fotos{
         flex-flow: row wrap;
         img{
             width: auto;
@@ -91,7 +91,7 @@
         }
     }
 
-    .Fotos_item:hover{
+    .fotos_item:hover{
         position: relative;
         top: 20px;
     }

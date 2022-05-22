@@ -6058,28 +6058,28 @@ main {
   width: 70vw;
   margin: 0px 5vw; }
 
-.Bio_main {
+.bio_main {
   display: flex;
   flex-direction: column;
   align-items: center; }
 
-.Bio_parrafo {
+.bio_parrafo {
   margin: 10px 5vw; }
 
-.Bio_intro {
+.bio_intro {
   margin: 10px 0px;
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center; }
 
-.Bio_videos {
+.bio_videos {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-evenly;
   align-items: center; }
 
-.Bio_video {
+.bio_video {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-evenly;
@@ -6088,17 +6088,17 @@ main {
   text-shadow: 2px 2px 5px #000000;
   margin: 25px 0px; }
 
-.Bio_video_title {
+.bio_video_title {
   font-weight: 500;
   text-align: center; }
 
 /* ---Estilo del Main Fotos--- */
-.Fotos {
+.fotos {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-evenly;
   align-content: center; }
-  .Fotos img {
+  .fotos img {
     width: 80vw;
     margin-top: 20px;
     margin-bottom: 20px; }
@@ -6152,11 +6152,11 @@ main {
     border-bottom: 1px solid #808080;
     background-color: #e2e2e2; }
 
-.Item {
+.item {
   text-align: center;
   width: 40px; }
 
-.Time {
+.time {
   text-align: center;
   width: 70px; }
 
@@ -6178,7 +6178,7 @@ main {
   align-items: center;
   margin: 10px 0px; }
 
-.contacto_forms .Contacto_formulario {
+.contacto_forms .contacto_formulario {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -6196,10 +6196,10 @@ main {
   height: 25px;
   width: auto; }
 
-.Contacto_formulario_namebox {
+.contacto_formulario_namebox {
   margin-top: 10px; }
 
-.Contacto_formulario_box {
+.contacto_formulario_box {
   background-color: #e2e2e2;
   color: #000000;
   width: 80vw; }
@@ -6480,27 +6480,27 @@ footer {
     margin: 0px 2vw; }
   .parrafo {
     margin: 10px 0px 20px 0px; }
-  .Bio_parrafo {
+  .bio_parrafo {
     width: 50vw;
     margin: 10px 30px 20px 30px; }
-  .Bio_intro {
+  .bio_intro {
     width: 90vw;
     flex-flow: row wrap;
     justify-content: space-evenly; }
-  .Bio_videos {
+  .bio_videos {
     flex-flow: row wrap; }
-  .Bio_video {
+  .bio_video {
     margin: 25px; }
-  .Bio_video_vid {
+  .bio_video_vid {
     width: 560px;
     height: 315px; }
   /* ---Estilo del Main Fotos--- */
-  .Fotos {
+  .fotos {
     flex-flow: row wrap; }
-    .Fotos img {
+    .fotos img {
       width: auto;
       height: 400px; }
-  .Fotos_item:hover {
+  .fotos_item:hover {
     position: relative;
     top: 20px; }
   /* ---Estilo del Main Discografía--- */
@@ -6555,9 +6555,9 @@ header div {
     justify-content: space-between; }
   .p_reserva {
     width: 35vw; }
-  .Contacto_formulario {
+  .contacto_formulario {
     align-items: flex-start; }
-  .Contacto_formulario_box {
+  .contacto_formulario_box {
     width: 35vw; }
   .aside1 {
     transform: rotate(0deg);
